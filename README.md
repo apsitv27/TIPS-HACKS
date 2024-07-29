@@ -10,6 +10,55 @@ to check it
 
 sudo docker run hello-world
 ```
+if you got hello world then continue to pul docker image if not then :-
+
+#### TRY
+
+```bash
+sudo apt install docker.io
+```
+
+### AFTER THAT 
+```bash
+docker pull mysql
+```
+```bash
+ docker run --name mysqldb -p 3307:3307 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=1234" mysql
+```
+
+```bash
+docker exec -it mysqldb bash
+```
+
+
+```bash
+mysql -u root -p
+
+```
+PASSWORD
+```bash
+1234
+```
+#### FOR THE FIRST TIME YOU MIGHT GET ERROR , get out of the container by ``exit`` command
+
+#### and then again try 
+
+```bash
+docker exec -it mysqldb bash
+```
+
+
+```bash
+mysql -u root -p
+
+```
+
+
+
+-----
+
+
+
 
 if installed then good to go 
 if not [then](https://github.com/kimroy99/Docker/blob/main/Guide) 
