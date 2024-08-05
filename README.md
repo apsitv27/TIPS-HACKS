@@ -18,16 +18,16 @@ if you got hello world then continue to pul docker image if not then :-
 sudo apt install docker.io
 ```
 
-### AFTER THAT 
+## AFTER THAT 
 ```bash
 docker pull mysql
 ```
 ```bash
- docker run --name mysqldb -p 3307:3307 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=1234" mysql
+ sudo docker run --name mysqldb -p 3307:3307 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=1234" mysql
 ```
 
 ```bash
-docker exec -it mysqldb bash
+sudo docker exec -it mysqldb bash
 ```
 
 
