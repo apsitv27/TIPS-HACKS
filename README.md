@@ -2,15 +2,15 @@
 
 
 
-install docker first 
+### install docker first 
 
-to check it 
+### to check it 
 
 ```bash
 
 sudo docker run hello-world
 ```
-if you got hello world then continue to pul docker image if not then :-
+### if you got hello world then continue to pul docker image if not then :-
 
 #### TRY
 
@@ -53,15 +53,20 @@ docker exec -it mysqldb bash
 mysql -u root -p
 
 ```
-## OR TRY TYPING MANUALLY ```mysql -u root -p``` if problem still persists
+### OR TRY TYPING MANUALLY ```mysql -u root -p``` if problem still persists
 
+### if installed then good to go 
 
 -----
 
 
+---------
+
+-------
+
+----------
 
 
-### if installed then good to go 
 
 ## if not [then](https://github.com/kimroy99/Docker/blob/main/Guide) 
 
