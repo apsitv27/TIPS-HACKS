@@ -1,5 +1,4 @@
-# docker
-
+# mysql in docker
 
 
 ### install docker first 
@@ -11,7 +10,6 @@
 sudo docker run hello-world
 ```
 ### if you got hello world then continue to pul docker image if not then :-
-
 #### TRY
 
 ```bash
@@ -23,6 +21,8 @@ sudo apt install docker.io
 docker pull mysql
 ```
 ### YOU CAN DIRECTLY RUN FROM THIS LINE OF CODE IF DOCKER IS ALREADY PRESENT
+
+### IT WILL AUTOMATICALLY PULL THE DOCKER IMAGE REQUIRED!
 ```bash
  sudo docker run --name mysqldb -p 3307:3307 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=1234" mysql
 ```
