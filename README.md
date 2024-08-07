@@ -22,6 +22,7 @@ sudo apt install docker.io
 ```bash
 docker pull mysql
 ```
+### YOU CAN DIRECTLY RUN FROM THIS LINE OF CODE IF DOCKER IS ALREADY PRESENT
 ```bash
  sudo docker run --name mysqldb -p 3307:3307 -v mysql_volume:/var/lib/mysql/ -d -e "MYSQL_ROOT_PASSWORD=1234" mysql
 ```
@@ -39,7 +40,7 @@ PASSWORD
 ```bash
 1234
 ```
-#### FOR THE FIRST TIME YOU MIGHT GET ERROR , get out of the container by ``exit`` command
+#### FOR THE FIRST TIME IF  YOU  GET ERROR , get out of the container by ``exit`` command
 
 #### and then again try 
 
@@ -52,7 +53,7 @@ docker exec -it mysqldb bash
 mysql -u root -p
 
 ```
-
+## OR TRY TYPING MANUALLY ```mysql -u root -p``` if problem still persists
 
 
 -----
@@ -60,9 +61,11 @@ mysql -u root -p
 
 
 
-if installed then good to go 
-if not [then](https://github.com/kimroy99/Docker/blob/main/Guide) 
+### if installed then good to go 
 
+## if not [then](https://github.com/kimroy99/Docker/blob/main/Guide) 
+
+### ONLY TRY THESE STEPS , IF PROBLEM STILL PERSISTS!!
 ```bash
 sudo apt-get update
 sudo apt-get install ca-certificates curl
