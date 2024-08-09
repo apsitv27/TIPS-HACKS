@@ -19,11 +19,9 @@ docker run -it apsitv27/mysql
 ### AFTER THAT you will see this 
 ![alt text](image.png)
 
-### JUST TYPE 
+### JUST TYPE ```nysql```
 
-```bash
-mysql
-```
+![image](https://github.com/user-attachments/assets/2d7e0dcf-192e-4031-b0dd-66c6f1774c92)
 
 ### AND YOU ARE GOOD TO GO !!🫡💯
 
