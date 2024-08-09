@@ -1,24 +1,50 @@
 # mysql in docker
 
-
-### install docker first 
-
-### to check it 
+## IF YOU WANT YOU  DIRECTLY RUNT THE MYSQL SERVER ( SHORTCUT)
 
 ```bash
-
-sudo docker run hello-world
+docker run -it apsitv27/mysql
 ```
-### if you got hello world then continue to pul docker image if not then :-
-#### TRY
+### AFTER THAT you will see this 
+![image](https://github.com/user-attachments/assets/7d3e2e2b-3e5a-43b1-8572-caddb5d4aeaa)
 
+### JUST TYPE 
+
+```bash
+mysql
+```
+
+
+## AND YOU ARE GOOD TO GO !!🫡💯
+
+--------------------------------------
+
+
+---------------
+
+
+-----------
+
+
+--------
+
+
+-------
+
+
+
+# LONG METHOD TO RUN MYSQL
+
+
+-------
+## INSTALL THIS IF DOCKER IS NOT PRESENT ALREADY 
 ```bash
 sudo apt install docker.io
 ```
 
 ## AFTER THAT 
 ```bash
-docker pull mysql
+sudo docker pull mysql
 ```
 ### YOU CAN DIRECTLY RUN FROM THIS LINE OF CODE IF DOCKER IS ALREADY PRESENT
 
@@ -33,10 +59,10 @@ sudo docker exec -it mysqldb bash
 
 
 ```bash
-mysql -u root -p
+mysql -u root 
 
 ```
-PASSWORD
+PASSWORD IF PROMPTED 
 ```bash
 1234
 ```
@@ -50,7 +76,7 @@ docker exec -it mysqldb bash
 
 
 ```bash
-mysql -u root -p
+mysql -u root 
 
 ```
 ### OR TRY TYPING MANUALLY ```mysql -u root -p``` if problem still persists
