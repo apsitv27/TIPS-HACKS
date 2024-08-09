@@ -6,7 +6,7 @@
 sudo apt install docker.io
 ```
 
-## THESE ARE DIRECT LINKS TO BE PASTED IN THE TERMINAL ,
+## THESE ARE DIRECT COMMANDS TO BE PASTED IN THE TERMINAL ,
 
 ( make sure you are connected to the internet before executing these )
 
