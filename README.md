@@ -5,6 +5,8 @@
 ```bash
 docker run -it apsitv27/mysql
 ```
+
+( make sure you are connected to the internet before executing this)
 ### AFTER THAT you will see this 
 ![image](https://github.com/user-attachments/assets/7d3e2e2b-3e5a-43b1-8572-caddb5d4aeaa)
 
