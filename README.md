@@ -11,7 +11,7 @@ sudo apt install docker.io
 ( make sure you are connected to the internet before executing these )
 
 ## 1) MYSQL 
-
+##### (IF you are in Linux , then use ```sudo``` before commands of docker not the bash )
 ```bash
 docker run -it apsitv27/mysql
 ```
