@@ -11,10 +11,11 @@ sudo apt install docker.io
 ( make sure you are connected to the internet before executing these )
 
 ## 1) MYSQL 
-##### (IF you are in Linux , then use ```sudo``` before commands of docker not the bash )
+
 ```bash
 docker run -it apsitv27/mysql
 ```
+
 
 ### AFTER THAT you will see this 
 ![alt text](image.png)
@@ -23,6 +24,12 @@ docker run -it apsitv27/mysql
 
 ![image](https://github.com/user-attachments/assets/2d7e0dcf-192e-4031-b0dd-66c6f1774c92)
 
+### OR
+```bash
+docker run -it apsitv27/sql
+```
+
+### when using ```apsitv27/sql``` will directly launch the mysql server no need to interupt in between
 ### AND YOU ARE GOOD TO GO !!🫡💯
 
 --------------------------------------
