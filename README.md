@@ -1,6 +1,20 @@
+# INSTALL OR USE MYSQL THROUGH pip MODULE
+
+## INSTALL IT USING 
+```bash
+pip install apsitv27-mysql
+```
+## to use it 
+```bash
+apsitv27-mysql
+```
+
+
+
+
+
+
 # Databases in DOCKER 
-
-
 ### DOCKER SHOULD BE INSTALLED ALREADY if not then install 
 ```bash
 sudo apt install docker.io
