@@ -84,6 +84,17 @@ For ```Windows```: It's located at ```C:\Users\<YourUsername>\.ssh\config```.
 
 - ## Step 5: Test Your Connection
   
+### To check How many profiles are there
+
+```bash
+notepad $HOME\.ssh\config
+```
+OR
+
+```bash
+nano ~/.ssh/config
+```
+
 #### Test the SSH connection for each profile using the following command:
 
 ```bash
